@@ -56,7 +56,8 @@ var newVariable;
 newVariable = 100;
 newVariable = null;
 newVariable = undefined;
-var days = "Lunedi";
+var day = "Lunedì";
+console.log(day);
 // 10) Tipizza il seguente array di numeri nei due modi possibili:
 // const numbers = [1, 2, 3]
 //RISPOSTA:
@@ -91,3 +92,12 @@ var myAuto = {
     porte: 5
 };
 console.log(myAuto);
+// 18) Cosa sono i Generics in TypeScript?
+//RISPOSTA:
+/* I GENERICS  sono dei "PLACEHOLDER" che si aspettano un TIPO di DATO, (string, number, ecc.) che, può essere passato come ARGOMENTO per un'interfaccia.
+Servono a rendere quest'ultima, più versatile e riutilizzabile.
+*/
+// 19) È possibile avere più tipi generici in un'interfaccia?
+//RISPOSTA:
+//SI
+// 20) Crea un interfaccia generica per una richiesta API 

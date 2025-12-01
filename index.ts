@@ -70,8 +70,9 @@ newVariable = undefined
 
 // 9) Crea un tipo per rappresentare i giorni della settimana usando union di stringhe letterali.
 //RISPOSTA:
-type daysOfAWeek = string
-const days: daysOfAWeek = "Lunedi"
+type daysOfAWeek = "Lunedì" | "Martedì" | "Mercoldì" | "Giovedì" | "Sabato" | "Domenica"
+const day: daysOfAWeek = "Lunedì"
+console.log(day)
 
 // 10) Tipizza il seguente array di numeri nei due modi possibili:
 // const numbers = [1, 2, 3]
@@ -122,8 +123,8 @@ type Student = {
 }
 
 const studenti: Student[] = [
-    { firstName: "Marco", voto: 28 }
-     { firstName: "Sara", voto: 30 }
+    { firstName: "Marco", voto: 28 },
+    { firstName: "Sara", voto: 30 }
 ]
 console.log(studenti)
 // 16) Crea un'interfaccia base "Veicolo" e estendila per creare "Auto".
@@ -156,8 +157,8 @@ console.log(myAuto)
 
 // 18) Cosa sono i Generics in TypeScript?
 //RISPOSTA:
-/* I GENERICS  sono dei "PLACEHOLDER" che si aspettano un TIPO di DATO, (string, number, ecc.) che, può essere passato come ARGOMENTO per un'interfaccia. 
-Servono a rendere quest'ultima, più versatile e riutilizzabile. 
+/* I GENERICS  sono dei "PLACEHOLDER" che si aspettano un TIPO di DATO, (string, number, ecc.) che, può essere passato come ARGOMENTO per un'interfaccia.
+Servono a rendere quest'ultima, più versatile e riutilizzabile.
 */
 
 // 19) È possibile avere più tipi generici in un'interfaccia?
@@ -165,6 +166,4 @@ Servono a rendere quest'ultima, più versatile e riutilizzabile.
 //SI
 
 // 20) Crea un interfaccia generica per una richiesta API 
-interface Book {
 
-}
